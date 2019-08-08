@@ -1,6 +1,6 @@
 def map_to_negative
   array= [1,2,3,-9]
-  map([1,2,3,-9]) {|n| n*-1}
+  map(array) {|n| n*-1}
 end
 
 def map_to_no_change
