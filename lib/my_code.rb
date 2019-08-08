@@ -1,21 +1,18 @@
-def map_to_negative
-  array= [1,2,3,-9]
+def map_to_negative(array)
   map(array) {|n| n*-1}
 end
 
-def map_to_no_change
+def map_to_no_change(array)
   dune= ["paul", "gurney", "vladimir", "jessica", "chani"]
   map(dune) {|n| n=dune}
 end
 
-def map_to_double
-  array= [1,2,3,-9]
+def map_to_double(array)
   map(array){|n| n*2}
 end
 
-def map_to_square
-  array= [1,2,3-9]
+def map_to_square(array)
   map(array){|n| n*n}
 end
 
-def 
+def
