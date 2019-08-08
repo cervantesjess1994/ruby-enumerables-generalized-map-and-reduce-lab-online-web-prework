@@ -12,3 +12,10 @@ def map_to_double
   array= [1,2,3,-9]
   map(array){|n| n*2}
 end
+
+def map_to_square
+  array= [1,2,3-9]
+  map(array){|n| n*n}
+end
+
+def 
