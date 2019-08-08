@@ -5,4 +5,4 @@ end
 
 def map_to_no_change
   dune= ["paul", "gurney", "vladimir", "jessica", "chani"]
-  map_to_no_change(["paul", "gurney", "vladimir", "jessica", "chani"])
+  map(["paul", "gurney", "vladimir", "jessica", "chani"]) {|n| n=dune}
