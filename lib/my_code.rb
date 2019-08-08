@@ -19,3 +19,12 @@ def sum(array)
 end
   sum(array)
 end
+
+def starting_point(source_array, starting_point)
+  source_array.reduce(starting_point){|sum,num| sum+num}
+end
+  starting_point
+end
+
+def 
+  
