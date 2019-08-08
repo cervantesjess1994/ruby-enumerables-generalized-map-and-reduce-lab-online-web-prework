@@ -3,7 +3,7 @@ def map_to_negative(array)
 end
 
 def map_to_no_change(array)
-  map(dune) {|n| n=dune}
+  map(array) {|n| n=array}
 end
 
 def map_to_double(array)
@@ -14,4 +14,8 @@ def map_to_square(array)
   map(array){|n| n*n}
 end
 
-def
+def sum(array)
+  array.reduce(:+)
+end
+  sum(array)
+end
