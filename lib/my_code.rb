@@ -38,4 +38,16 @@ end
   falsey
 end
 
+def true(source_array)
+    source_array.reduce{|memo, n| memo || n }
+end
+  true
+end
+
+def false(source_array)
+  source_array.reduce{|memo, n| memo && n }
+end
+  false
+end
+
 def 
