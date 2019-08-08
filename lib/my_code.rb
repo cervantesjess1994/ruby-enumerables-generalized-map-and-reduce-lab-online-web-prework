@@ -26,4 +26,10 @@ end
   starting_point
 end
 
-def
+def truthy(source_array)
+  source_array.reduce{|memo, n| memo && n }
+end
+  truthy
+end
+
+def 
