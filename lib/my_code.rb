@@ -49,5 +49,3 @@ def false(source_array)
 end
   false
 end
-
-def 
