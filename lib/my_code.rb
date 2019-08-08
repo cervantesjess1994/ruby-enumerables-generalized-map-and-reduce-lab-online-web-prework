@@ -14,8 +14,8 @@ def map_to_square(array)
   map(array){|n| n*n}
 end
 
-def sum(array)
-  array.reduce(:+)
+def sum(source_array)
+  source_array.reduce(:+)
 end
   sum(array)
 end
